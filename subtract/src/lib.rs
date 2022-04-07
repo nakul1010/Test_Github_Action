@@ -3,16 +3,14 @@ pub fn main() {
 }
 
 #[cfg(test)]
-mod test{
+mod test {
 
     #[test]
-    fn right_test()
-    {
-        assert_eq!(2,2);
+    fn right_test() {
+        assert_eq!(2, 2);
     }
 
-    fn wrong_test()
-    {
-        assert_eq!(2,4);
+    fn wrong_test() {
+        assert_eq!(2, 4);
     }
 }
