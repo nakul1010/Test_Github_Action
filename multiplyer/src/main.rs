@@ -1,3 +1,3 @@
 fn main() {
-    println!("In Multiply multiplyer");
+    println!("In Multiply Multiply");
 }
